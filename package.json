@@ -1,0 +1,24 @@
+{
+  "name": "localsage",
+  "title": "LocalSage Clientside App",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Spencer Norman",
+    "company": "LocalSage"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "grunt": "^0.4.5",
+    "jasmine-given": "~2.1.0",
+    "lineman": ">= 0.28.0",
+    "lineman-angular": ">= 0.2.0",
+    "lineman-bower": "0.0.3",
+    "lineman-less": "0.0.1",
+    "protractor": "^1.0.0-rc4"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
+}
