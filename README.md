@@ -16,7 +16,7 @@ It includes the following features:
 8. Auto generated [sourcemaps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) with inlined sources via [grunt-concat-sourcemap](https://github.com/kozy4324/grunt-concat-sourcemap) (you'll need to [enable sourcemaps](http://cl.ly/image/1d0X2z2u1E3b) in Firefox/Chrome to see this)
 9. [Unit Tests](https://github.com/linemanjs/lineman-angular-template/tree/master/spec) and [End-to-End Tests](https://github.com/linemanjs/lineman-angular-template/tree/master/spec-e2e)
 10. Configuration to run [Protractor](https://github.com/juliemr/protractor) for End-to-End Tests
-11. Configuration to use bower with Lineman borrowed from (https://github.com/linemanjs/lineman-bower)
+11. Configuration to use bower with Lineman borrowed from (https://github.com/linemanjs/lineman-bower). Put's bower components in vendor/bower.
 12. Configured to use SASS instead of LESS.
 13. Bootstrap SCSS files and glyphicons included (currently Bootstrap 3.2)
 14. No BootstrapJS included
