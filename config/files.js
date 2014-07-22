@@ -20,12 +20,11 @@ module.exports = function(lineman) {
       ]
     },
 
-    sass: {
-      compile: {
-        options: {
-          paths: ["vendor/css/normalize.css", "vendor/css/**/*.css", "app/css/**/*.sass"]
-        }
-      }
+    css: {
+      vendor: [
+        "vendor/css/normalize.css",
+        "vendor/css/**/*.css",
+      ]
     },
 
     webfonts: {
